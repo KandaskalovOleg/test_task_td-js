@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Verdana';
+  src: url('./../assets/fonts/Verdana.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Verdana';
+  font-weight: bold;
+  src: url('./../assets/fonts/Verdana-Bold.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  font-family: 'Verdana', sans-serif;
+  font-size: 21px;
+  color: #181818;
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 500px) {
+    h2 {
+      font-size: 24px;
+    }
+  }
+}

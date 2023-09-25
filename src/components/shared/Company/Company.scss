@@ -1,0 +1,55 @@
+.company {
+  width: 100%;
+  background-image: url('./../../../assets/images/bg-secondary.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .company-wrapper {
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    @media (max-width: 800px) {
+      margin: 0 30px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      background: linear-gradient(to right, #1BB147, #018ED5);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  
+    p {
+      color: white;
+      margin-right: 40%;
+
+      @media (max-width: 1140px) {
+        margin-right: 0;
+      }
+    }
+  
+    button {
+      align-self: center;
+      margin-top: 12px;
+      text-transform: uppercase;
+      max-width: 444px;
+      height: 60px;
+      background-color: #FA0606;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  
+    span {
+      color: white;
+      margin-bottom: 48px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+}

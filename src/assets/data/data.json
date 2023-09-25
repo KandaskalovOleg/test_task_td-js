@@ -1,0 +1,42 @@
+[
+  { 
+    "id": 0,
+    "img": "src\\assets\\images\\slider-icon.jpg",
+    "name": "Mateusz morawecki",
+    "year": "39 lat",
+    "city": "Kierowca",
+    "description": "Decyzja Ministerstwa Klimatu Rzeczypospolitej Polskiej oficjalnie potwierdza, że inwestycje w pierwszą elektrownię jądrowe w Polsce są zgodne z interesem publicznym oraz polityką prowadzoną przez państwo, zwłaszcza polityką energetyczną. Każdy obywatel Polski będzie mógł czerpać korzyści z energii wytwarzanej przez elektrownię jądrowe."
+  },
+  {
+    "id": 1,
+    "img": "src\\assets\\images\\slider-icon.jpg",
+    "name": "Mateusz morawecki",
+    "year": "29 lat",
+    "city": "Krakow",
+    "description": "Decyzja Ministerstwa Klimatu Rzeczypospolitej Polskiej oficjalnie potwierdza, że inwestycje w pierwszą elektrownię jądrowe w Polsce są zgodne z interesem publicznym oraz polityką prowadzoną przez państwo, zwłaszcza polityką energetyczną. Każdy obywatel Polski będzie mógł czerpać korzyści z energii wytwarzanej przez elektrownię jądrowe."
+  },
+  {
+    "id": 2,
+    "img": "src\\assets\\images\\slider-icon.jpg",
+    "name": "Mateusz morawecki",
+    "year": "32 lat",
+    "city": "Lwow",
+    "description": "Decyzja Ministerstwa Klimatu Rzeczypospolitej Polskiej oficjalnie potwierdza, że inwestycje w pierwszą elektrownię jądrowe w Polsce są zgodne z interesem publicznym oraz polityką prowadzoną przez państwo, zwłaszcza polityką energetyczną. Każdy obywatel Polski będzie mógł czerpać korzyści z energii wytwarzanej przez elektrownię jądrowe."
+  },
+  {
+    "id": 3,
+    "img": "src\\assets\\images\\slider-icon.jpg",
+    "name": "Mateusz morawecki",
+    "year": "39 lat",
+    "city": "Katovice",
+    "description": "Decyzja Ministerstwa Klimatu Rzeczypospolitej Polskiej oficjalnie potwierdza, że inwestycje w pierwszą elektrownię jądrowe w Polsce są zgodne z interesem publicznym oraz polityką prowadzoną przez państwo, zwłaszcza polityką energetyczną. Każdy obywatel Polski będzie mógł czerpać korzyści z energii wytwarzanej przez elektrownię jądrowe."
+  },
+  {
+    "id": 4,
+    "img": "src\\assets\\images\\slider-icon.jpg",
+    "name": "Mateusz morawecki",
+    "year": "33 lat",
+    "city": "Kyiv",
+    "description": "Decyzja Ministerstwa Klimatu Rzeczypospolitej Polskiej oficjalnie potwierdza, że inwestycje w pierwszą elektrownię jądrowe w Polsce są zgodne z interesem publicznym oraz polityką prowadzoną przez państwo, zwłaszcza polityką energetyczną. Każdy obywatel Polski będzie mógł czerpać korzyści z energii wytwarzanej przez elektrownię jądrowe."
+  }
+]

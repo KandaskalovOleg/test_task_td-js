@@ -1,0 +1,33 @@
+main {
+  align-items: center;
+  
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px auto;
+    align-items: center;
+
+    @media (max-width: 1080px) {
+      display: block;
+    }
+
+    .register {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gratitude {
+      margin: 0 auto;
+    }
+  }
+
+  .down-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+}

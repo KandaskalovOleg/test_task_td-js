@@ -1,0 +1,73 @@
+.about {
+  background-image: url('./../../../assets/images//human.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media (max-width: 1140px) {
+    background-image: none;
+  }
+
+  .main-content {
+    margin-left: 40%;
+
+    h2 {
+      text-transform: uppercase;
+      background: linear-gradient(to right, #1BB147, #018ED5);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    @media (max-width: 1140px) {
+      margin: 0 80px;
+    }
+
+    @media (max-width: 800px) {
+      margin: 0 30px;
+    }
+
+    p {
+      font-size: 21px;
+      line-height: 27px;
+    }
+
+    .bold-text {
+      font-weight: bold;
+    }
+  }
+
+  .gradient {
+    height: 114px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #1BB147, #018ED5);
+    display: flex;
+    position: relative;
+    z-index: -1;
+    
+    .person-info {
+      color: white;
+      box-sizing: content-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-left: 40%;
+
+      @media (max-width: 1140px) {
+        margin: 0 80px;
+      }
+
+      @media (max-width: 800px) {
+        margin: 0 30px;
+      }
+
+      h3 {
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
