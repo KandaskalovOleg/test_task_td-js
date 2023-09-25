@@ -5,12 +5,6 @@ import { Range } from 'react-range';
 export const Earn = () => {
   const [values, setValues] = React.useState([1100]);
 
-  if (typeof values === 'number') {
-    const result = values * 6.5;
-  } else {
-    return;
-  }
-
   return (
     <>
       <div className='earn' id="earn">
@@ -53,11 +47,11 @@ export const Earn = () => {
               <span>500 000+ pln</span>
             </div>
             <span>Zarobisz</span>
-            <p>{values * 6.5} PLN</p>
+            <p>{+values * 6.5} PLN</p>
         </div>
         <button>Dolacz do nas</button>
       </div>
-      <img src="src\assets\images\earn.jpg" alt="Earn with us img" />
+      <img src="/test-task-td-js/src/assets/images/earn.jpg" alt="Earn with us img" />
     </>
   );
 }
