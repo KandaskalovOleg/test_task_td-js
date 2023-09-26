@@ -1,7 +1,7 @@
 [
   { 
     "id": 0,
-    "img": "/images/slider-icon.jpg",
+    "img": "./images/slider-icon.jpg",
     "name": "Mateusz morawecki",
     "year": "39 lat",
     "city": "Kierowca",
@@ -9,7 +9,7 @@
   },
   {
     "id": 1,
-    "img": "/images/slider-icon.jpg",
+    "img": "./images/slider-icon.jpg",
     "name": "Mateusz morawecki",
     "year": "29 lat",
     "city": "Krakow",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "img": "/images/slider-icon.jpg",
+    "img": "./images/slider-icon.jpg",
     "name": "Mateusz morawecki",
     "year": "32 lat",
     "city": "Lwow",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "img": "/images/slider-icon.jpg",
+    "img": "./images/slider-icon.jpg",
     "name": "Mateusz morawecki",
     "year": "39 lat",
     "city": "Katovice",
@@ -33,7 +33,7 @@
   },
   {
     "id": 4,
-    "img": "/images/slider-icon.jpg",
+    "img": "./images/slider-icon.jpg",
     "name": "Mateusz morawecki",
     "year": "33 lat",
     "city": "Kyiv",
