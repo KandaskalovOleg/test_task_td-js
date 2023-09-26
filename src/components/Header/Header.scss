@@ -1,4 +1,6 @@
 header {
+  position: relative;
+
   .bg-header {
     display: flex;
     background-image: url('/test-task-td-js/src/assets/images/bg-header.png');
@@ -34,12 +36,36 @@ header {
     }
   }
 
+  
+  .burger-button {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+
+    @media (max-width: 900px) {
+      position: absolute;
+      display: block;
+    }
+  }
+
   nav {
     display: flex;
     height: 60px;
 
     @media (max-width: 900px) {
       display: none;
+      transform: translateX(100%);
+
+      &.open {
+        display: block;
+        background-color: #08AC6F;
+        height: 100dvh;
+        width: 100%;
+
+        animation: slideIn 0.3s ease;
+        transform: translateX(0);
+      }
     }
     
     ul {
@@ -49,6 +75,13 @@ header {
       height: 100%;
       margin: auto 117px;
       padding: 0;
+
+      @media (max-width: 900px) {
+        flex-direction: column;
+        margin: 0;
+        padding-top: 10%;
+        height: 60%;
+      }
 
       li {
         list-style-type: none;
@@ -61,8 +94,21 @@ header {
           font-size: 24px;
           line-height: 31px;
           color: #181818;
+
+          @media (max-width: 900px) {
+            color: white;
+          }
         }
       }
     }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
