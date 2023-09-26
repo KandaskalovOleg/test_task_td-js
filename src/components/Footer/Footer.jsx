@@ -1,7 +1,9 @@
+import footerSrc from './../../assets/images/footer.png';
+
 export const Footer = () => {
   return (
     <footer>
-      <img src="src\assets\images\footer.png" alt="footer img" />
+      <img src={footerSrc} alt="footer img" />
     </footer>
   );
 }

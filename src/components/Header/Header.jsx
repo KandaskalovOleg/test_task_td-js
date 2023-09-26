@@ -34,6 +34,7 @@ export const Header = () => {
     }
   };
   
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleResize = () => {
     if (window.innerWidth >= 900 && isBurgerOpen) {
       setIsBurgerOpen(false);
@@ -48,7 +49,7 @@ export const Header = () => {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [isBurgerOpen]);
+  }, [handleResize, isBurgerOpen]);
   
   const closeBurgerMenu = () => {
     if (isBurgerOpen) {

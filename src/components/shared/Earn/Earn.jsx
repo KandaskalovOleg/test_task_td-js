@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import './Earn.scss'
 import { Range } from 'react-range';
+import earnSrc from './../../../assets/images/earn.jpg';
 
 export const Earn = () => {
   const [values, setValues] = React.useState([1100]);
@@ -47,11 +49,11 @@ export const Earn = () => {
               <span>500 000+ pln</span>
             </div>
             <span>Zarobisz</span>
-            <p>{+values * 6.5} PLN</p>
+            <p>{values * 6.5} PLN</p>
         </div>
         <button>Dolacz do nas</button>
       </div>
-      <img src="/test-task-td-js/src/assets/images/earn.jpg" alt="Earn with us img" />
+      <img src={earnSrc} alt="Earn with us img" />
     </>
   );
 }

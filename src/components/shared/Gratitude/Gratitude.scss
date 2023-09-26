@@ -3,17 +3,14 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-
-  max-width: 695px;
+  max-width: 1000px;
 
   img {
     max-width: 100%;
 
     @media (max-width: 800px) {
       width: 80%;
-      @media (max-width: 800px) {
-        margin: 0 30px;
-      }
+      margin: 0 30px;
     }
   }
 
